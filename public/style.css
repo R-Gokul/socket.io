@@ -9,8 +9,8 @@
     color: steelblue;
 }
 .inbox__messages{
-    float: right;
     border-left: 5px steelblue;
+    min-height: 700px;
 }
 .message_form{
     display: flex;
@@ -45,8 +45,12 @@
       border:0;
       padding:0;
   }
+  .message-send{
+    float: right;
+    min-height: 700px;
+  }
   
-  .message-send {
+  .messages__history{
     -webkit-appearance: none;
     background: #9cc900;
     background: -moz-linear-gradient(180deg, #00d8ff, #00b5d6);
